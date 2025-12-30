@@ -37,7 +37,7 @@ brew install jq
 
 4. **Save the API token** - BotFather will give you something like:
    ```
-   110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw
+   123456789:ABCdefGHIjklMNOpqrSTUvwxYZ-1234567
    ```
 
 5. **Optional: Customize your bot** with BotFather:
@@ -197,8 +197,8 @@ The configuration is stored at `~/.claude-telegram`:
 
 ```bash
 # Telegram Bot Configuration for Claude Code
-TELEGRAM_BOT_TOKEN="110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw"
-TELEGRAM_CHAT_ID="123456789"
+TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN_HERE"
+TELEGRAM_CHAT_ID="YOUR_CHAT_ID_HERE"
 ```
 
 File permissions are set to 600 (owner read/write only) for security.
